@@ -1,0 +1,34 @@
+.top{
+    width:100%;
+    height:120px;
+    background-color:rgba(255,255,255,.7);
+    position:fixed;
+    top:0;
+    z-index:1000;
+}
+.toplogo{
+    display: inline-block;
+    padding: 5px 50px;
+    font-family:'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 40px;
+}
+.topList{
+   display: flex;
+   float: right;
+   margin-right: 90px;
+}
+.topList li{
+    padding: 35px 15px 5px;
+    list-style-type: none;
+    font-family:'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 20px;
+}
+.topList li a, a:link, a:visited{
+    text-decoration: none;
+    background-color: rgb(242, 233, 248);
+    color: rgb(131, 19, 131);
+    text-align: center;
+    padding: 10px 11px;
+}

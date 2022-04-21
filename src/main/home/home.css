@@ -1,0 +1,31 @@
+.home{
+    margin-top:50px;
+}
+.homeTitles{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #ddd;
+    color:#fff;
+    font-family: 'Sunflower', sans-serif;
+}
+.homeTitleSm{
+    position:absolute;
+    top:400px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Sunflower', sans-serif;
+}
+.homeTitleLg{
+    position:absolute;
+    top:500px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.homeImg{
+    width:100%;
+    height:800px;
+    padding-top: 70px;
+    object-fit: cover;
+    object-position: center;
+}

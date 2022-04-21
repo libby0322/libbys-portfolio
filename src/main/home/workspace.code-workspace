@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\myreact\\hello-react\\blog\\blog"
+		},
+		{
+			"path": "..\\..\\..\\..\\LB\\html\\moonbucks"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "moonbucks"
+	}
+}
