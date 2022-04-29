@@ -1,0 +1,60 @@
+.contactwrap {
+    width: 100%;
+    padding-top: 200px;
+    text-align: center;
+    background: #eee;
+    height: 750px;
+}
+.wrapper{
+    width: 600px;
+    height: 500px;
+    display: block;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: #fff;
+}
+.contactBox{
+    display: flex;
+    justify-content: center;
+}
+.contact-title{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.conhead{
+    font-family: 'Sunflower', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.context1, .context2, .context3{
+   text-align: start; 
+   padding-bottom: 10px;
+}
+.context1{
+    padding-left: 130px;
+}
+.context2{
+    padding-left: 80px;
+}
+.context3{
+    padding-left: 140px;
+}
+.endtext{
+    font-size: 10px;
+    padding-top: 30px;
+}
+@media screen and (max-width:1000px) {
+    .contactwrap{
+        width: 100%;
+        padding-top: 230px;
+        text-align: center;
+        background: #eee;
+        height: 750px;
+    }
+}

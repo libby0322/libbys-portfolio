@@ -11,13 +11,12 @@ export default function Topbar() {
             <ul className="topList">
                 <li className="topListItem"><Link to="/" className="Homelink">Home</Link></li>
                 <li className="topListItem"><Link to="/about">About</Link></li>
-                <li className="topListItem"><Link to="/skills">Skills</Link></li>
                 <li className="topListItem"><Link to="/portfolio">Portfolio</Link></li>
                 <li className="topListItem"><Link to="/contact">Contact</Link></li>
+                
             </ul>
-s
-
 
     </div>
+    
   )
 }

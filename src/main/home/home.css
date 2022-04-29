@@ -29,3 +29,15 @@
     object-fit: cover;
     object-position: center;
 }
+@media screen and (max-width:900px) {
+    .home{
+        padding-top: 150px;
+        background-color: #eee;
+    }
+    .homeTitleSm{
+        font-size: 30px;
+    }
+    .homeTitleLg{
+        font-size: 10px;
+    }
+}
